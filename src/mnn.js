@@ -2,7 +2,7 @@
 
 var mnn = mnn || {};
 var base = base || require('./base');
-var flatbuffers = flatbuffers || require('flatbuffers').flatbuffers;
+var flatbuffers = flatbuffers || require('./flatbuffers');
 
 mnn.ModelFactory = class {
 

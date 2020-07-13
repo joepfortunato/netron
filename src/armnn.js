@@ -2,7 +2,7 @@
 
 var armnn = armnn || {};
 var base = base || require('./base');
-var flatbuffers = flatbuffers || require('flatbuffers').flatbuffers;
+var flatbuffers = flatbuffers || require('./flatbuffers');
 var long = long || { Long: require('long') };
 
 armnn.ModelFactory = class {
